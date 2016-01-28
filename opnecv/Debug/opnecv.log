@@ -1,0 +1,36 @@
+﻿生成启动时间为 2015/10/14 10:13:42。
+     1>项目“C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\opnecv\opnecv.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opnecv.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(14): warning C4005: “cvQueryHistValue_2D”: 宏重定义
+                 c:\opencv\build\include\opencv2\legacy\compat.hpp(253) : 参见“cvQueryHistValue_2D”的前一个定义
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(87): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(219): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(220): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(221): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(222): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(134): warning C4101: “w”: 未引用的局部变量
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(290): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(303): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(338): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(349): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(352): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(404): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(462): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(470): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(546): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(590): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(598): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(624): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(570): warning C4101: “n”: 未引用的局部变量
+     1>c:\users\aaron\documents\visual studio 2013\projects\opnecv\opnecv\main.cpp(498): warning C4715: “voteForResults”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\Debug\opencv.exe" /INCREMENTAL /NOLOGO opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_objdetect2411d.lib opencv_ts2411d.lib opencv_video2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\Debug\opencv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\Debug\opencv.lib" /MACHINE:X86 Debug\main.obj
+         opnecv.vcxproj -> C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\Debug\opencv.exe
+     1>已完成生成项目“C:\Users\Aaron\Documents\Visual Studio 2013\projects\opnecv\opnecv\opnecv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85
